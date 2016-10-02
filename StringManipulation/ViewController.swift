@@ -36,6 +36,20 @@ class ViewController: UIViewController {
         
         print(newTypeString.substring(with: NSRange(location: 6, length: 3)))
         
+        if newTypeString.contains("Ti") {
+            print("newTypeString contains Ti")
+        }
+        
+        print(newTypeString.components(separatedBy: " "))
+        
+        print(newTypeString.uppercased)
+        
+        print(newTypeString.lowercased)
+        
+        print(newTypeString.capitalized)
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
